@@ -48,5 +48,8 @@ Este proyecto muestra la configuración y uso de una base de datos RDS en AWS co
    ├── rds-terraform-setup.tf
    └── scripts/
        ├── backup.sh
-       └── restore.sh
+       └── restore.sh 
 
+### Imagen:
+<img                src="https://raw.githubusercontent.com/cobyzero/TiendaManagerApp/main/assets/readme/base.png" width="200"/> 
+ <img                src="https://raw.githubusercontent.com/cobyzero/TiendaManagerApp/main/assets/readme/login.png" width="200"/> <img                src="https://raw.githubusercontent.com/cobyzero/TiendaManagerApp/main/assets/readme/home.png" width="200"/><img                src="https://raw.githubusercontent.com/cobyzero/TiendaManagerApp/main/assets/readme/item.png" width="200"/><img                src="https://raw.githubusercontent.com/cobyzero/TiendaManagerApp/main/assets/readme/cart.png" width="200"/>
