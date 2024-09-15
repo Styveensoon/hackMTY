@@ -33,7 +33,7 @@ Este proyecto muestra la configuración y uso de una base de datos RDS en AWS co
 
 ### 5. **Conexión a la base de datos:**
    Para conectarse a la base de datos RDS desde una máquina local o EC2:
-   ```bash
+   bash
    mysql -h <endpoint> -P 3306 -u <usuario> -p
    mysql -h <checkmail.cfgkqi6ykjnf.us-east-1.rds.amazonaws.com> -P 3306 -u <admin> -p
 
