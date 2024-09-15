@@ -37,16 +37,14 @@ Este proyecto muestra la configuración y uso de una base de datos RDS en AWS co
    mysql -h <endpoint> -P 3306 -u <usuario> -p
    mysql -h <checkmail.cfgkqi6ykjnf.us-east-1.rds.amazonaws.com> -P 3306 -u <admin> -p
 
-### b) **Subir scripts de configuración**
-Si utilizaste algún script o archivo de configuración para automatizar tareas (como Terraform o CloudFormation para crear la RDS), puedes subir esos archivos al repositorio.
+### 6. **Subir scripts de configuración:**
+   - Creación de la instancia RDS con un script de **Terraform** para automatizar tarea, se incluye el archivo `.tf`:
 
-- ** Creación de la instancia RDS con un script de **Terraform**, para incluir el archivo `.tf`:
-
-```bash
-.
-├── README.md
-├── rds-terraform-setup.tf
-└── scripts/
-    ├── backup.sh
-    └── restore.sh
+   ```bash
+   .
+   ├── README.md
+   ├── rds-terraform-setup.tf
+   └── scripts/
+       ├── backup.sh
+       └── restore.sh
 
