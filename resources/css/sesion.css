@@ -1,0 +1,55 @@
+
+section {
+    padding: 60px 0; 
+    background-color: #eee;
+}
+
+.card {
+    border: none; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body img {
+    max-width: 150px;
+    border-radius: 50%; 
+}
+
+.card-body h5 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-body p {
+    margin-bottom: 5px;
+}
+
+
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 0.25rem;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d; 
+}
+
+.btn-primary,
+.btn-outline-primary {
+    border-radius: 20px;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+
+}
+
+.progress-bar {
+    background-color: #007bff; 
+}
+
