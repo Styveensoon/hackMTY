@@ -98,7 +98,7 @@ Gracias a su arquitectura basada en microservicios y el uso de tecnologías como
 |  (Correos)     | |  (Teléfonos)  | |(Tablets,   | |(Redshift, RDS|
 |                | |               | | iPads, etc)| | AWS S3)      |
 +----------------+ +--------------+ +------------+ +--------------+
-
+```
 ## Ecosistema de Seguridad Integral
 
 CheckMail no solo se enfoca en correos electrónicos, sino que extiende su protección a todos los dispositivos y puntos de contacto digitales mediante una arquitectura flexible y personalizable. Esto permite crear un entorno completo de seguridad que cubre múltiples áreas críticas.
