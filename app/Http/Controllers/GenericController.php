@@ -21,4 +21,9 @@ class GenericController extends Controller
         return view('registro');
     }
 
+    public function AN()
+    {
+        return view('casa');
+    }
+
 }

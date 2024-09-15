@@ -139,7 +139,7 @@
     
     
 <main class="form-signin w-100 m-auto">
-  <form action="casalumno.html" method="get">
+
     <img class="mb-4" src="/img/icono.png" alt="" width="172" height="157">
     <h1 class="h3 mb-3 fw-normal">Por favor, registrarse.</h1>
 
@@ -154,10 +154,11 @@
       <label for="floatingPassword">Contraseña</label>
     </div>
   </div>
-    
+  <form action="{{ route('views.AN') }}" method="GET">
   <button class="btn btn-black w-100 py-2" type="submit">Ingresar</button>
-
   </form>
+
+
 </main>
 <script src="x/js/bootstrap.bundle.min.js"></script>
 

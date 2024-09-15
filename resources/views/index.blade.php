@@ -198,7 +198,7 @@
           
           
             <form action="{{ route('views.loguin') }}" method="GET">
-            <button class="btn btn-registro" type="submit" style="color: #000000; background-color: #ffffff; border: 1px solid #000000;">Login</button>
+            <button class="btn btn-registro" type="submit" style="margin-left:800px; color: #000000; background-color: #ffffff; border: 1px solid #000000;">Login</button>
             </form>
             <form action="{{ route('views.rg') }}" method="GET">
             <button class="btn btn-login"  type="submit" style="color: #000000; background-color: #ffffff; border: 1px solid #000000;">Registro</button>      

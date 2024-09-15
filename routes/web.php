@@ -16,3 +16,6 @@ Route::get('/Login', [GenericController::class,  'Login'])
 
 Route::get('/Registro', [GenericController::class,  'RG'])
     ->name('views.rg');
+
+Route::get('/Plataform', [GenericController::class,  'AN'])
+    ->name('views.AN');
