@@ -7,8 +7,8 @@ Este proyecto muestra la configuración y uso de una base de datos RDS en AWS co
 
 1. **Creación de la instancia RDS:**
    - Motor: MySQL
-   - Región: us-east-1
-   - Tipo de instancia: db.t2.micro
+   - Región: us-east-1b
+   - Tipo de instancia: db.t4g.micro
 
 2. **Configuración de Seguridad:**
    - Grupo de seguridad: Permitir conexiones entrantes en el puerto 3306.
@@ -17,6 +17,7 @@ Este proyecto muestra la configuración y uso de una base de datos RDS en AWS co
 3. **Conexión a la base de datos:**
    ```bash
    mysql -h <endpoint> -P 3306 -u <usuario> -p
+   mysql -h <checkmail.cfgkqi6ykjnf.us-east-1.rds.amazonaws.com> -P 3306 -u <admin> -p
 
 
 #### b) **Subir scripts de configuración**
