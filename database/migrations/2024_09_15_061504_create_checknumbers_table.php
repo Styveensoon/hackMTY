@@ -4,24 +4,31 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
+class CreateChecknumbersTable extends Migration
 {
     /**
      * Run the migrations.
+     *
+     * @return void
      */
-    public function up(): void
+    public function up()
     {
         Schema::create('checknumbers', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_check'); // ID principal
+            $table->string('numero', 20)->unique(); // Número de teléfono único
+            $table->unsignedBigInteger('empresa'); // Relación con la tabla usuarios
+            $table->foreign('empresa')->references('id_empresa')->on('usuarios')->onDelete('cascade'); // Llave foránea a la tabla usuarios
             $table->timestamps();
         });
     }
 
     /**
      * Reverse the migrations.
+     *
+     * @return void
      */
-    public function down(): void
+    public function down()
     {
         Schema::dropIfExists('checknumbers');
     }
-};
+}

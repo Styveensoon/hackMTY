@@ -9,7 +9,7 @@
     <meta name="generator" content="Hugo 0.122.0">
     <title>Inicio</title>
 
-<link href="/HackMTY/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -117,7 +117,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="/HackMTY/resources/css/sign-in.css" rel="stylesheet">
+    <link href="/css/sign-in.css" rel="stylesheet">
   </head>
   <body class="d-flex-center bg-body-tertiary">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -140,7 +140,7 @@
     
 <main class="form-signin w-100 m-auto">
   <form action="casalumno.html" method="get">
-    <img class="mb-4" src="/HackMTY/resources/img/icono.png" alt="" width="172" height="157">
+    <img class="mb-4" src="/img/icono.png" alt="" width="172" height="157">
     <h1 class="h3 mb-3 fw-normal">Por favor, registrarse.</h1>
 
     
@@ -159,7 +159,7 @@
 
   </form>
 </main>
-<script src="/HackMTY/resources/js/bootstrap.bundle.min.js"></script>
+<script src="x/js/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>

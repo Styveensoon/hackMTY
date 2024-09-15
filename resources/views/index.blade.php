@@ -4,14 +4,11 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
     <title>Inicio</title>
 
 
-<link href="/HackMTY/resources/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
     <style>
@@ -166,7 +163,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="/HackMTY/resources/css/carousel.css" rel="stylesheet">
+    <link href="/css/carousel.css" rel="stylesheet">
   </head>
   <body>
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
@@ -191,7 +188,7 @@
       <nav class="navbar navbar-expand-md fixed-top" style="background-color: #ffffff; color: #000000;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#" style="color: #000000;">
-            <img src="/HackMTY/resources/img/icono.png" alt="Icono" style="width: 60px; height: 64px; margin-right: 64px;">
+            <img src="/img/icono.png" alt="Icono" style="width: 60px; height: 64px; margin-right: 64px;">
             C H E C K M A T E
           </a>
     
@@ -199,11 +196,14 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           
-          <form class="d-flex" role="search">
+          
+            <form action="{{ route('views.loguin') }}" method="GET">
             <button class="btn btn-registro" type="submit" style="color: #000000; background-color: #ffffff; border: 1px solid #000000;">Login</button>
-            &nbsp; &nbsp; &nbsp; &nbsp;
-            <button class="btn btn-login" href="/HackMTY/resources/views/registro.html" type="submit" style="color: #000000; background-color: #ffffff; border: 1px solid #000000;">Registro</button>      
-          </form>
+            </form>
+            <form action="{{ route('views.rg') }}" method="GET">
+            <button class="btn btn-login"  type="submit" style="color: #000000; background-color: #ffffff; border: 1px solid #000000;">Registro</button>      
+            </form>
+          
         </div>
       </nav>
     </header>
@@ -214,7 +214,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <video class="bd-placeholder-img" width="100%" height="100%" autoplay muted loop playsinline>
-          <source src="/HackMTY/resources/videos/inicio.mp4" type="video/mp4">
+          <source src="/videos/inicio.mp4" type="video/mp4">
           Tu navegador no soporta la etiqueta de video.
         </video>
         <div class="container">
@@ -235,19 +235,19 @@
         <br>
         <br>
         <div class="col-lg-4">
-          <img src="/HackMTY/resources/img/icono.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
+          <img src="/img/icono.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
           <br><br>
           <h2 class="fw-normal">C H E K M A I L</h2>
           <p>Conoce nuestro sitio web, conoce nuestras mejores oportunidades que te puede ofrecer</p>
         </div>
         <div class="col-lg-4">
-          <img src="/HackMTY/resources/img/rastreo2.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
+          <img src="/img/rastreo2.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
           <br><br>
-          <h2 class="fw-normal">RASTREO PHONE</h2>
+          <h2 class="fw-normal">C H E C K P H O N E </h2>
           <p>Conoce el rastreo dentro de una empresa, institucion y familiar</p>
         </div>
         <div class="col-lg-4">
-          <img src="/HackMTY/resources/img/dispositivo4.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
+          <img src="/img/dispositivo4.png" class="bd-placeholder-img rounded-circle" alt="Descripción de la imagen" width="140" height="140">
           <br><br>
           <h2 class="fw-normal">RASTREO DISPOSITIVOS</h2>
           <p>Rastreo tus dispositivos y conoce donde estan.</p>
@@ -264,7 +264,7 @@
         <p class="lead" style="text-align: center;">Una solución integral diseñada para optimizar la gestión de correo electrónico, el control de personal y los entornos escolares. Nuestra aplicación ofrece herramientas avanzadas de seguimiento, análisis y administración, asegurando un control eficiente de la comunicación y el rendimiento de tu equipo. Simplifica tus operaciones y potencia tu productividad con nuestra plataforma versátil y segura.</p>
       </div>
       <div class="col-md-5">
-        <img src="/HackMTY/resources/img/inicio.jpg" alt="Descripción de la imagen" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
+        <img src="/img/inicio.jpg" alt="Descripción de la imagen" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
 
       </div>
     </div>
@@ -274,7 +274,7 @@
 
   </div>
 </main>
-<script src="resources/js/bootstrap.bundle.min.js"></script>
+<script src="css/bootstrap.bundle.min.js"></script>
 
     </body>
 </html>

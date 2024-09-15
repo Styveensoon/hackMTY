@@ -10,7 +10,7 @@
     <title>Registro </title>
 
 
-<link href="/HackMTY/resources/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
     body {
@@ -150,7 +150,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="/HackMTY/resources/css/checkout.css" rel="stylesheet">
+    <link href="/css/checkout.css" rel="stylesheet">
   </head>
   <body>
       <div class="content">
@@ -174,14 +174,14 @@
 <div class="container">
   <main>
     <div class="py-5 text-center">
-      <img class="bd-placeholder-img rounded-circle" src="/HackMTY/resources/img/icono.png" alt="100" width="150" height="">
+      <img class="bd-placeholder-img rounded-circle" src="/img/icono.png" alt="100" width="150" height="">
       <br>
       <br>
       <h2>C H E K M A E T </h2>
       <p class="lead">Coloca aqui tus datos y se parte de esta gran comunidad </p>
       <div class="col-md-7 col-lg-8">
         <br>
-        <form  id= "registrationForm" action="/HackMTY/resources/views/index.html" method="get" class="needs-validation" novalidate>
+        <form  id= "registrationForm"  method="get" class="needs-validation" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">ID_Empresa</label>
@@ -266,9 +266,9 @@
     </div>
   </main>
 </div>
-<script src="/HackMTY/resources/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
 
-    <script src="/HackMTY/resources/css/checkout.css"></script>
+    <script src="/css/checkout.css"></script>
     <script>
       const togglePassword = document.getElementById('togglePassword');
         const passwordInput = document.getElementById('address');
